@@ -1,5 +1,5 @@
 
-public class arrayBiggestAndSmallest {
+public class taskC {
 
     public static void main(String[] args)
     {
