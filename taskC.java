@@ -3,12 +3,12 @@ public class taskC {
 
     public static void main(String[] args)
     {
-        int[] theArrayMyBoi = { 1,2,3,4,5,6,7,8,9,10 };
-        System.out.println( theBiggestOfArray(theArrayMyBoi) );
-        System.out.println( theSmallestOfArray(theArrayMyBoi) );
+        int[] customArray = { 1,2,3,4,5,6,7,8,9,10 };
+        System.out.println( theBiggestOfArray(customArray) );
+        System.out.println( theSmallestOfArray(customArray) );
    
     }
-    public  static int theBiggestOfArray (int  givenArray [])
+    public  static int theBiggestOfArray (int[] givenArray)
     {
         int biggestNum = givenArray[0];
         for(int num: givenArray)
@@ -21,7 +21,7 @@ public class taskC {
         return biggestNum;
     }
 
-    public static int theSmallestOfArray (int givenArray  [])
+    public static int theSmallestOfArray (int[] givenArray)
     {
         int smallestNum = givenArray[0];
         for(int num: givenArray)
